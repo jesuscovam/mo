@@ -1,0 +1,6 @@
+{
+	"runtime": "nodejs16.x",
+	"handler": "apps/jesus/.svelte-kit/vercel-tmp/index.js",
+	"launcherType": "Nodejs",
+	"experimentalResponseStreaming": true
+}
