@@ -3,6 +3,10 @@
 	"version": "0.0.1",
 	"license": "MIT",
 	"main": "./src/lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jesuscovam/mo/tree/main/packages/ui"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && pnpm run package",
