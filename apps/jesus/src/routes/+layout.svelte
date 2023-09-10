@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>Contacto</title>
+  <title>jesus</title>
 </svelte:head>
 
 <ViewTransition class="p-10 flex flex-col space-y-10" url={data?.url}>
