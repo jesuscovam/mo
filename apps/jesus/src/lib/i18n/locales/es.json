@@ -1,0 +1,20 @@
+{
+	"header": {
+		"description": "Manejo de Producto, Desarrollo de aplicaciones Web y Móvil, Beatmaker",
+		"contact_me": "Contáctame para ingenería 👨🏻‍💻"
+	},
+	"engineering": {
+		"title": "Proyectos de Ingenería 👨🏻‍💻"
+	},
+	"books": {
+		"title": "Libros leídos desde 2023"
+	},
+	"animes": {
+		"title": "Animes vistos desde 2023",
+		"episodes": "Episodios"
+	},
+	"nav": {
+		"engineering": "Proyectos de Ingenería 👨🏻‍💻",
+		"books": "Libros 📖"
+	}
+}
