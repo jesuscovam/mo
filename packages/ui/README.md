@@ -1,4 +1,4 @@
 # @mouizard/svelte 
 
-Componentes reutilizables de la agencia Midnight Ouizard
+Componentes reutilizables de svelte con cariño by Midnight Ouizard
 
