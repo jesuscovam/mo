@@ -14,7 +14,6 @@
 		"test": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"publish": "npm publish --access public"
 	},
 	"exports": {
 		".": {
