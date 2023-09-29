@@ -18,24 +18,19 @@
   const projects: Project[] = [
     {
       title: 'Sonríele MX',
-      url: 'https://sonriele.mx',
+      url: 'https://preview.sonriele.mx',
       techStack: [TechStack.SvelteKit, TechStack.Postgres]
     },
     {
       title: 'Mf Dentista',
-      url: 'https://mf-dentist-web.vercel.app/',
+      url: 'https://sonrisabienestar.com',
       techStack: [TechStack.SvelteKit, TechStack.GraphQL, TechStack.S3]
     },
     {
       title: 'MECA',
-      url: 'https://meca-web.vercel.app/',
+      url: 'https://clinicameca.com',
       techStack: [TechStack.SvelteKit, TechStack.GraphQL, TechStack.S3]
     },
-    // {
-    // 	title: 'Sonríele mx',
-    // 	url: 'https://sonriele-mx-web.vercel.app/',
-    // 	techStack: [TechStack.SvelteKit]
-    // },
     {
       title: 'Slissto',
       url: 'https://slissto.com',
