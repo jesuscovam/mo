@@ -12,6 +12,10 @@
       "dependsOn": ["^format"],
       "outputs": ["src/**"]
     },
+    "package": {
+      "dependsOn": ["^package"],
+      "outputs": ["dist/**"]
+    },
     "dev": {
       "cache": false,
       "persistent": true

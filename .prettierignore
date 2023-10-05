@@ -3,6 +3,10 @@
 node_modules
 /build
 /package
+/.vercel
+.vercel
+/.turbo
+.turbo
 .env
 .env.*
 !.env.example
