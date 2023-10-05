@@ -8,6 +8,6 @@ register('en', () => import('./locales/en.json'));
 register('es', () => import('./locales/es.json'));
 
 init({
-	fallbackLocale: defaultLocale,
-	initialLocale: browser ? window.navigator.language : defaultLocale
+  fallbackLocale: defaultLocale,
+  initialLocale: browser ? window.navigator.language : defaultLocale
 });
