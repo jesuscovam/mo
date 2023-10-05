@@ -1,6 +1,6 @@
 {
 	"name": "@mouizard/svelte",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"license": "MIT",
 	"main": "./src/lib/index.js",
 	"repository": {
@@ -31,7 +31,7 @@
 		"!dist/**/*.spec.*"
 	],
 	"peerDependencies": {
-		"@sveltejs/kit": "^1.20.4",
+		"@sveltejs/kit": "^1.24.0",
 		"svelte": "^4.0.0"
 	},
 	"devDependencies": {
