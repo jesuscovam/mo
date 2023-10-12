@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { bumpVersion } from './utils';
+import { bumpVersion } from './utils.mjs';
 
 console.log('Incrementing build number...');
 fs.readFile('package.json', function (err, content) {
