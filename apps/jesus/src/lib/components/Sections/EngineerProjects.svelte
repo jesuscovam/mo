@@ -17,12 +17,18 @@
 
   const projects: Project[] = [
     {
+      title: 'resend-email',
+      url: 'https://crates.io/crates/resend-email',
+      techStack: [TechStack.Rust]
+    },
+
+    {
       title: 'Sonríele MX',
       url: 'https://preview.sonriele.mx',
       techStack: [TechStack.SvelteKit, TechStack.Postgres]
     },
     {
-      title: 'Mf Dentista',
+      title: 'Sonrisa y Bienestar',
       url: 'https://sonrisabienestar.com',
       techStack: [TechStack.SvelteKit, TechStack.GraphQL, TechStack.S3]
     },

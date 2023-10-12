@@ -1,5 +1,5 @@
 {
-  "name": "@mouizard/svelte",
+  "name": "ui",
   "version": "0.0.5",
   "license": "MIT",
   "main": "./src/lib/index.js",
@@ -17,8 +17,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
     "test": "vitest",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write .",
-    "publish-package": "node ./scripts/publish.mjs && pnpm publish && node ./scripts/resetName.mjs"
+    "format": "prettier --plugin-search-dir . --write ."
   },
   "exports": {
     ".": {

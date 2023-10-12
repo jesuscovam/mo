@@ -5,6 +5,7 @@
   import postgres from './postgres.svg?url';
   import s3 from './s3.png';
   import svelte from './svelte.svg?url';
+  import rust from './rust.png';
 
   export let tech: TechStack = TechStack.GraphQL;
 
@@ -17,6 +18,8 @@
       ? s3
       : tech === TechStack.ReactNative
       ? reactNative
+      : tech === TechStack.Rust
+      ? rust
       : postgres;
 </script>
 

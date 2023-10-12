@@ -3,7 +3,8 @@ export enum TechStack {
   ReactNative,
   GraphQL,
   S3,
-  Postgres
+  Postgres,
+  Rust
 }
 
 export type Layout = 'grid' | 'flex';

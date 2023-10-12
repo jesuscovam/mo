@@ -8,6 +8,5 @@ fs.readFile('package.json', function (err, content) {
 	metadata.name = 'ui';
 	fs.writeFile('package.json', JSON.stringify(metadata, null, 2), function (err) {
 		if (err) throw err;
-		console.log(`Current monorepo build number: ${metadata.version}`);
 	});
 });
