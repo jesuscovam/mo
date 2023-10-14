@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ThemeComponent from '../Theme/Theme.svelte';
+  import ThemeComponent from '../Theme.svelte';
   import type { Theme } from '$lib/types';
   import image_profile from './profile.webp';
   import { _ } from 'svelte-i18n';

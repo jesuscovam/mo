@@ -4,7 +4,7 @@ export const actions = {
     if (theme) {
       cookies.set('themeColor', theme, {
         path: '/',
-        maxAge: 8 * 60 * 60 // 8 hours
+        maxAge: 1 * 60 * 60 // 1 hora
       });
     }
   }
