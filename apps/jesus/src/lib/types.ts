@@ -8,3 +8,5 @@ export enum TechStack {
 }
 
 export type Layout = 'grid' | 'flex';
+
+export type Theme = 'light' | 'dark';
