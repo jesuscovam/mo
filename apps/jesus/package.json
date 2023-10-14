@@ -21,6 +21,7 @@
     "@sveltejs/kit": "^1.24.1",
     "@vercel/analytics": "^1.0.2",
     "autoprefixer": "^10.4.15",
+    "daisyui": "^3.9.2",
     "eslint-config-custom": "workspace:*",
     "postcss": "^8.4.29",
     "svelte": "^4.2.0",

@@ -1,6 +1,10 @@
-<script>
+<script lang="ts">
+  import ThemeComponent from '../Theme/Theme.svelte';
+  import type { Theme } from '$lib/types';
   import image_profile from './profile.webp';
   import { _ } from 'svelte-i18n';
+
+  export let theme: Theme;
 </script>
 
 <div class="flex flex-row justify-between w-full">
@@ -13,6 +17,9 @@
       />
     </a>
     <div class="flex flex-col justify-end text-right md:text-left text-sm space-y-3">
+      <div class="flex flex-row justify-end md:justify-start">
+        <ThemeComponent bind:theme />
+      </div>
       <div>
         <a class="font-bold text-base cursor-pointer" href="/">Jesus Cova</a>
         <p class="italic text-sm font-bold text-gray-600">
