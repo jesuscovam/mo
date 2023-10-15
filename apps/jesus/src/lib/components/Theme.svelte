@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { page } from '$app/stores';
   import type { Theme } from '$lib/types';
 
   export let theme: Theme;
@@ -6,10 +7,11 @@
   $: checked = theme === 'light';
   let action = '';
 
+  $: pathname = $page.url.pathname;
   $: if (checked) {
-    action = `/?/setTheme&theme=dark`;
+    action = `/?/setTheme&theme=dark&redirectTo=${pathname}`;
   } else {
-    action = `/?/setTheme&theme=light`;
+    action = `/?/setTheme&theme=light&redirectTo=${pathname}`;
   }
 
   let form: HTMLFormElement;
