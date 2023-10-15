@@ -1,7 +1,5 @@
 <script lang="ts">
-  import { enhance } from '$app/forms';
   import type { Theme } from '$lib/types';
-  import type { SubmitFunction } from '@sveltejs/kit';
 
   export let theme: Theme;
 
@@ -19,16 +17,6 @@
   function submit() {
     form?.requestSubmit();
   }
-
-  const submitJsUpdate: SubmitFunction = ({ action }) => {
-    const theme = action.searchParams.get('theme');
-
-    if (theme) {
-      document.documentElement.setAttribute('data-theme', theme);
-    }
-
-    return async ({ update }) => await update();
-  };
 </script>
 
 <form bind:this={form} method="POST" {action}>
