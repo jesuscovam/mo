@@ -2,6 +2,7 @@
   import { enhance } from '$app/forms';
   import { page } from '$app/stores';
   import type { Theme } from '$lib/types';
+  import type { SubmitFunction } from '@sveltejs/kit';
 
   export let theme: Theme;
 
@@ -20,9 +21,17 @@
   function submit() {
     form?.requestSubmit();
   }
+
+  const handleSubmitFromJS: SubmitFunction = ({ action }) => {
+    const theme = action.searchParams.get('theme');
+
+    if (theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+  };
 </script>
 
-<form bind:this={form} use:enhance method="POST" {action}>
+<form bind:this={form} use:enhance={handleSubmitFromJS} method="POST" {action}>
   <label class="swap swap-rotate">
     <!-- this hidden checkbox controls the state -->
     <input type="checkbox" {checked} on:change={submit} />
