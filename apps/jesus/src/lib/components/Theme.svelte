@@ -31,7 +31,7 @@
   };
 </script>
 
-<form bind:this={form} use:enhance={submitJsUpdate} method="POST" {action}>
+<form bind:this={form} use:enhance method="POST" {action}>
   <label class="swap swap-rotate">
     <!-- this hidden checkbox controls the state -->
     <input type="checkbox" {checked} on:change={submit} />
