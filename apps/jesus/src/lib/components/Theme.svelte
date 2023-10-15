@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { enhance } from '$app/forms';
   import { page } from '$app/stores';
   import type { Theme } from '$lib/types';
 
@@ -21,7 +22,7 @@
   }
 </script>
 
-<form bind:this={form} method="POST" {action}>
+<form bind:this={form} use:enhance method="POST" {action}>
   <label class="swap swap-rotate">
     <!-- this hidden checkbox controls the state -->
     <input type="checkbox" {checked} on:change={submit} />
