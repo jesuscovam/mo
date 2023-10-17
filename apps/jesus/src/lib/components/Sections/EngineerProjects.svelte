@@ -24,7 +24,7 @@
 
     {
       title: 'Sonríele MX',
-      url: 'https://preview.sonriele.mx',
+      url: 'https://sonriele-mx-web-git-preview-midnight-ouizard.vercel.app/',
       techStack: [TechStack.SvelteKit, TechStack.Postgres]
     },
     {
