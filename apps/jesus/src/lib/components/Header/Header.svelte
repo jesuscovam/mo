@@ -13,7 +13,7 @@
       <img
         src={image_profile}
         alt="wearing a black cap and a nice coat in CDMX"
-        class="rounded-xl w-40 h-50 border-2 border-black"
+        class="rounded-lg w-36 h-46 shadow-md"
       />
     </a>
     <div class="flex flex-col justify-end text-right md:text-left text-sm space-y-3">
