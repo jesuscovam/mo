@@ -30,12 +30,12 @@
     {
       title: 'Sonrisa y Bienestar',
       url: 'https://sonrisabienestar.com',
-      techStack: [TechStack.SvelteKit, TechStack.GraphQL, TechStack.S3]
+      techStack: [TechStack.SvelteKit, TechStack.Sanity, TechStack.Postgres, TechStack.Blob]
     },
     {
       title: 'MECA',
       url: 'https://clinicameca.com',
-      techStack: [TechStack.SvelteKit, TechStack.GraphQL, TechStack.S3]
+      techStack: [TechStack.SvelteKit, TechStack.Sanity]
     },
     {
       title: 'Slissto',

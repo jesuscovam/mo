@@ -4,7 +4,9 @@ export enum TechStack {
   GraphQL,
   S3,
   Postgres,
-  Rust
+  Blob,
+  Rust,
+  Sanity
 }
 
 export type Layout = 'grid' | 'flex';
