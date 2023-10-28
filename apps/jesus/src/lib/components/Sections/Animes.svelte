@@ -10,6 +10,12 @@
   }
   const animes: Anime[] = [
     {
+      title: 'Castlevania: Nocturne',
+      imagen:
+        'https://m.media-amazon.com/images/M/MV5BMTA1MmQxNDctNTJlOC00YzFkLTg1OGUtMWQ0Y2YzNDg4ODE1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
+      episodes: 8
+    },
+    {
       title: 'Yowamushi Pedal: Grande Road',
       imagen: 'https://cdn.myanimelist.net/images/anime/12/67799l.jpg',
       episodes: 24

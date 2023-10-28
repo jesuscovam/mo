@@ -9,7 +9,6 @@
   export let data;
 
   $: theme = data?.theme as Theme;
-  $: console.log({ theme });
   inject({ mode: dev ? 'development' : 'production' });
 </script>
 
