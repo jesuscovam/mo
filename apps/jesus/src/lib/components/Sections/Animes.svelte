@@ -2,6 +2,7 @@
   import { _ } from 'svelte-i18n';
   import type { Layout } from '../../types';
   import ListItem from './ListItem.svelte';
+  import HeaderSection from './HeaderSection.svelte';
 
   interface Anime {
     imagen: string;
@@ -73,8 +74,8 @@
   export let layout: Layout = 'flex';
 </script>
 
-<section class="flex flex-col">
-  <h2 class="font-bold">{$_('animes.title')}</h2>
+<section class="flex flex-col space-y-5">
+  <HeaderSection>{$_('animes.title')}</HeaderSection>
   {#if layout === 'grid'}
     <div class="grid sm:grid-cols-2 md:grid-cols-4">
       {#each animes as anime}

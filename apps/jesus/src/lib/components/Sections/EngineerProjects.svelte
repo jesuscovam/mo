@@ -2,6 +2,7 @@
   import { TechStack } from '../../types';
   import { _ } from 'svelte-i18n';
   import TechIcon from './TechIcon/TechIcon.svelte';
+  import HeaderSection from './HeaderSection.svelte';
 
   interface SubLink {
     platform: string;
@@ -76,7 +77,7 @@
 </script>
 
 <div class="flex flex-col space-y-3 w-full md:w-2/4">
-  <h2>{$_('engineering.title')}</h2>
+  <HeaderSection>{$_('engineering.title')}</HeaderSection>
   <div class="flex flex-col space-y-3">
     {#each projects as { title, url, techStack, subLinks }}
       <div class="flex flex-col space-y-2">

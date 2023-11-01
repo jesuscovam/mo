@@ -2,6 +2,7 @@
   import { _ } from 'svelte-i18n';
   import type { Layout } from '../../types';
   import ListItem from './ListItem.svelte';
+  import HeaderSection from './HeaderSection.svelte';
 
   interface Libro {
     imagen: string;
@@ -9,6 +10,11 @@
     autor: string;
   }
   const libros: Libro[] = [
+    {
+      title: 'The Laws of Simplicity',
+      autor: 'John Maeda',
+      imagen: '/books/laws-of-simplicity.webp'
+    },
     {
       autor: 'Isabel Allende',
       title: 'El Viento Conoce Mi Nombre',
@@ -42,7 +48,7 @@
 </script>
 
 <section class="flex flex-col space-y-5">
-  <h2 class="font-bold">{$_('books.title')}</h2>
+  <HeaderSection>{$_('books.title')}</HeaderSection>
   {#if layout === 'grid'}
     <div class="grid sm:grid-cols-2 md:grid-cols-4">
       {#each libros as { title, imagen, autor }}
