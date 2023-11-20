@@ -33,12 +33,16 @@
         <a rel="me" href="https://mastodon.social/@jesuscova" class="underline text-blue-400"
           >Mastodon</a
         >
+        <a href="https://bsky.app/profile/jesuscova.bsky.social" class="underline text-blue-400"
+          >BlueSky</a
+        >
+
         <a
           rel="me"
           href="https://www.linkedin.com/in/jesus-cova-262882171/"
           class="underline text-blue-400"
         >
-          {$_('header.contact_me')}
+          Linkedin
         </a>
         <p />
       </div>

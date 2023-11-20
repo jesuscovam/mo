@@ -11,6 +11,12 @@
   }
   const libros: Libro[] = [
     {
+      title: 'Do Design',
+      autor: 'Alan Moore',
+      imagen:
+        'https://elephantbookstore.com/image/cache/catalog/12.6.2019/Alan-Moore--Do--Design-Why-Beauty-is-Key-to-Everything-45693-0-950x950.png'
+    },
+    {
       title: 'The Laws of Simplicity',
       autor: 'John Maeda',
       imagen: '/books/laws-of-simplicity.webp'

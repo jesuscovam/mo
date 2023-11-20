@@ -11,6 +11,18 @@
   }
   const animes: Anime[] = [
     {
+      title: 'Shingeki No Kyojin: The Final Chapters Part 2',
+      episodes: 1,
+      imagen:
+        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.lyricsstory.net%2Fwp-content%2Fuploads%2F2023%2F04%2FAttack-on-Titan-Final-Season-The-Final-Chapters-Special-2.gsr_.png&f=1&nofb=1&ipt=231d1f6b443579ec2421be395eda207c2a81869076301aa4421b491d69d9f0b0&ipo=images'
+    },
+    {
+      title: 'Yowamushi Pedal: New Generation',
+      imagen:
+        'https://static.exploreanime.com/wp-content/uploads/2022/06/Yowamushi-Pedal-New-Generation.jpg',
+      episodes: 25
+    },
+    {
       title: 'Castlevania: Nocturne',
       imagen:
         'https://m.media-amazon.com/images/M/MV5BMTA1MmQxNDctNTJlOC00YzFkLTg1OGUtMWQ0Y2YzNDg4ODE1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
