@@ -12,7 +12,7 @@
   const animes: Anime[] = [
     {
       title: 'Shingeki No Kyojin: The Final Chapters Part 2',
-      episodes: 1,
+      episodes: 3,
       imagen:
         'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fwww.lyricsstory.net%2Fwp-content%2Fuploads%2F2023%2F04%2FAttack-on-Titan-Final-Season-The-Final-Chapters-Special-2.gsr_.png&f=1&nofb=1&ipt=231d1f6b443579ec2421be395eda207c2a81869076301aa4421b491d69d9f0b0&ipo=images'
     },
