@@ -27,9 +27,6 @@
         </p>
       </div>
       <div class="flex flex-col space-y-1">
-        <a rel="me" href="https://instagram.com/jesuscovam" class="underline text-blue-400"
-          >Instagram</a
-        >
         <a rel="me" href="https://mastodon.social/@jesuscova" class="underline text-blue-400"
           >Mastodon</a
         >
@@ -42,7 +39,7 @@
           href="https://www.linkedin.com/in/jesus-cova-262882171/"
           class="underline text-blue-400"
         >
-          Linkedin
+          LinkedIn
         </a>
         <p />
       </div>
