@@ -12,3 +12,13 @@ export enum TechStack {
 export type Layout = 'grid' | 'flex';
 
 export type Theme = 'light' | 'dark';
+
+export interface Release {
+  image: string;
+  title: string;
+  key: string
+  spotify: string;
+  apple: string;
+  ytmusic: string;
+}
+

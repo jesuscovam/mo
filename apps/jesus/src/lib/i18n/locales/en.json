@@ -13,6 +13,9 @@
     "title": "Animes watched since 2023",
     "episodes": "Episodes"
   },
+  "music": {
+    "title": "Music releases"
+  },
   "nav": {
     "engineering": "Engineering Projects 👨🏻‍💻",
     "books": "Books 📖"
