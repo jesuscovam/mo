@@ -1,4 +1,5 @@
 import Kuroko from '$lib/components/music/assets/kuroko.webp?url';
+import Polymax from '$lib/components/music/assets/polymax.webp?url'
 import type { Release } from '$lib/types'
 
 const releases: Release[] = [
@@ -9,7 +10,16 @@ const releases: Release[] = [
     spotify: 'https://open.spotify.com/album/0EoeHKp2C3JlJcdV5LkZno?si=6hoMlpEnSlmZWf78Bjh9Iw',
     apple: 'https://music.apple.com/us/album/kuroko-abriendo-kancha-sidekick-friendship-single/1748855593',
     ytmusic: 'https://music.youtube.com/playlist?list=OLAK5uy_m3B8LnqpAdHTwxOUNRSDFZRuKRWKkdey0&si=6akiqMfp2akMkLz_'
+  },
+  {
+    title: 'POLYMAX SEASON',
+    image: Polymax,
+    key: 'polymax-season',
+    spotify: '',
+    apple: '',
+    ytmusic: ''
   }
+
 ];
 
 
