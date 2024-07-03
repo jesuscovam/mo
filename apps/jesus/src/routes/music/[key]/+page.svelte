@@ -37,7 +37,7 @@
 <div class="flex flex-col items-center justify-center w-full">
   <section class="flex flex-col">
     <div class="flex flex-row items-center justify-center space-x-4">
-      <img src={release?.image} alt={release?.title} class="h-20 w-20" />
+      <img src={release?.image} alt={release?.title} class="h-20 w-20 rounded-lg" />
       <HeaderSection>{release?.title}</HeaderSection>
     </div>
     <div class="flex flex-col mt-20 space-y-5 items-center justify-center">
