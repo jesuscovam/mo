@@ -20,5 +20,6 @@ export interface Release {
   spotify: string;
   apple: string;
   ytmusic: string;
+  yt: string;
 }
 

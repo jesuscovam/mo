@@ -2,6 +2,7 @@
   import spotify from '$lib/components/music/assets/spotify.webp?url';
   import apple from '$lib/components/music/assets/apple-music.webp?url';
   import ytmusic from '$lib/components/music/assets/yt-music.webp?url';
+  import yt from '$lib/components/music/assets/yt.webp?url'
   import HeaderSection from '$lib/components/Sections/HeaderSection.svelte';
 
   export let data;
@@ -9,21 +10,27 @@
   $: release = data?.release;
   $: distributors = [
     {
+      title: 'Apple Music',
+      img: apple,
+      url: release?.apple
+    },
+        {
+      title: 'Spotify',
+      img: spotify,
+      url: release?.spotify
+    },
+   {
+      title: 'Youtube',
+      img: yt,
+      url: release?.yt
+    },
+ {
       title: 'Youtube Music',
       img: ytmusic,
       url: release?.ytmusic
     },
 
-    {
-      title: 'Spotify',
-      img: spotify,
-      url: release?.spotify
-    },
-    {
-      title: 'Apple Music',
-      img: apple,
-      url: release?.apple
-    }
+
   ];
 </script>
 
