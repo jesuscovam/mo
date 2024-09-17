@@ -11,6 +11,11 @@
   }
   const libros: Libro[] = [
     {
+      title: 'Harry Potter Y El Principe Mestizo',
+      autor: "The one that shouldn't be name",
+      imagen: 'https://m.media-amazon.com/images/I/81ovGuHRgRL._AC_UF894,1000_QL80_.jpg'
+    },
+    {
       title: 'Do Design',
       autor: 'Alan Moore',
       imagen:
